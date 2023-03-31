@@ -12,7 +12,6 @@ outputs the date's season. The input is a string
 to represent the month and an integer to represent 
 the day.
 
-The program loop continues until user type Quit  
 
 Ex: If the input is:
 
@@ -44,8 +43,6 @@ package find_season;
 
 import java.util.Scanner;
 
-
-    
 /**
  *
  * @author peterrodriguez
@@ -57,8 +54,7 @@ public class Find_season {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-//        for (Season s : Season.values())
-//           System.out.println(s); 
+
         
         String month; 
         int day; 
